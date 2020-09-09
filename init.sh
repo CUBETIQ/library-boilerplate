@@ -16,6 +16,9 @@ rm -rf example
 # Remove Self Init Script For Prevent Next time wrong on init
 rm -f ./init.sh
 
+# Remove Current Repo
+git remote rm origin
+
 # Reinit Git
 git init
 
