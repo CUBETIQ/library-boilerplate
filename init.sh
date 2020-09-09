@@ -22,5 +22,8 @@ git remote rm origin
 # Reinit Git
 git init
 
+# Remove Readme
+rm -f README.md
+
 # Show Warning
 echo "Please Goto package.json and change Name , Description, Git Url of this library"
