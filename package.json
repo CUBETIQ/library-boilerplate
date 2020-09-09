@@ -1,5 +1,5 @@
 {
-  "name": "lib-name",
+  "name": "@cubetiq/lib-name",
   "version": "1.0.0",
   "description": "lib-description",
   "main": "./dist/index.js",
