@@ -10,14 +10,13 @@
   "keywords": ["javascript","typescript", "boilerplate","library"],
 
   "repository": {
-    "url": "https://git.cubetiqs.com/s.long/js-lib-boilerplate"
+    "url": "https://git.cubetiqs.com/CUBETIQ/library-boilerplate.git"
   },
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "build:test": "yarn jest && yarn build",
-    "publish": "yarn build:test && npm publish --registry https://npm.osa.cubetiqs.com",
-
+    "pub": "npm publish --access public",
     "run:example": "cd example && yarn start"
   },
   "devDependencies": {
