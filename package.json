@@ -8,10 +8,21 @@
   "license": "MIT",
   "private": false,
   "keywords": ["javascript","typescript", "boilerplate","library"],
-
   "repository": {
     "url": "https://git.cubetiqs.com/CUBETIQ/library-boilerplate.git"
   },
+  "contributors": [
+    {
+        "email": "s.long@cubetiqs.com",
+        "name": "@s.long",
+        "url": "https://git.cubetiqs.com/s.long"
+    },
+    {
+        "email": "sombochea@cubetiqs.com",
+        "name": "@SomboChea",
+        "url": "https://git.cubetiqs.com/sombochea"
+    }
+],
   "scripts": {
     "build": "tsc",
     "test": "jest",
